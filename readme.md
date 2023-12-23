@@ -9,5 +9,3 @@ npm run watch
 # Для запсуку тестів необхідно використовувати напступну команду:
 
 Команда доступна у папці test у теці instruction_to_start у файлі instruction.txt
-
-<font color="green">Цей текст буде зеленого кольору</font>

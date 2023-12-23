@@ -53,9 +53,7 @@ body {
 .calculatorInput:focus {
   outline: none;
 }
-.calculatorInput:hover {
-  cursor: default;
-}
+
 .button-number {
   background-color: #343434;
   color: #fcfcfc;
@@ -68,10 +66,7 @@ body {
   margin: 5px;
   transition: 0.3s;
 }
-.button-number:hover {
-  background-color: #232323;
-  cursor: pointer;
-}
+
 .zero-button {
   width: 150px;
   border-radius: 45px;
@@ -81,9 +76,7 @@ body {
   background-color: #fc9e0c;
   font-size: 45px;
 }
-.arithmetic-button:hover {
-  background-color: #955d03;
-}
+
 .button-number:active {
   background-color: #fcfcfc;
 }
@@ -106,10 +99,7 @@ body {
   font-weight: 600;
   transition: 0.3s;
 }
-.button-clear:hover {
-  background-color: #717070;
-  cursor: pointer;
-}
+
 .button-negative {
   display: flex;
   align-items: center;
@@ -138,11 +128,28 @@ body {
   transition: 0.3s;
 }
 
-.zero-span:hover {
-  background-color: #232323;
-  cursor: pointer;
-}
 .zero-span:active {
   background-color: #fcfcfc;
 }
 /* responsive */
+
+@media (hover: hover) {
+  .zero-span:hover {
+    background-color: #232323;
+    cursor: pointer;
+  }
+  .button-clear:hover {
+    background-color: #717070;
+    cursor: pointer;
+  }
+  .arithmetic-button:hover {
+    background-color: #955d03;
+  }
+  .button-number:hover {
+    background-color: #232323;
+    cursor: pointer;
+  }
+  .calculatorInput:hover {
+    cursor: default;
+  }
+}

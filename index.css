@@ -2,16 +2,20 @@
   background-color: #000000;
   font-family: "Geologica", sans-serif;
 }
+html,
 body {
+  height: 100%;
   margin: 0;
+  padding: 0;
 }
+
 .main-div {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   width: 100%;
-  height: 100vh;
+  height: 100%;
   padding: 0;
 }
 .calculatorInput {
